@@ -1,0 +1,42 @@
+style/header.css
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background: linear-gradient(120deg, #232526 0%, #414345 100%);
+}
+
+.header-card {
+  background: #24292f;
+  color: #fff;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  min-width: 340px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.header-card h3 {
+  margin: 0 0 1.2rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header-card p {
+  margin: 1.1rem 0;
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 600px) {
+  .header-card {
+    padding: 1.2rem 0.8rem;
+    min-width: 220px;
+    max-width: 95vw;
+  }
+}
