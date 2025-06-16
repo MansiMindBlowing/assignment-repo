@@ -1,9 +1,8 @@
 function SideBar(){
     return(
         <div>
-            <h3 style={{position:"fixed", left:0, width:"17%",height:"100%",top:"32px", border:"2px solid red"}}>SideBar</h3>
+            <h2 style={{width:"200px", border:"2px solid brown",backgroundColor:"lightpink", height:"800px"}}>SideBar</h2>
         </div>
     )
 }
-
 export default SideBar;

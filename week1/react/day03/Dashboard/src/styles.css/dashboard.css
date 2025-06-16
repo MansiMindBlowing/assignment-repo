@@ -1,0 +1,22 @@
+.dashboard{
+    display: flex;
+    height: 100vh;
+    background-color: lightpink;
+}
+
+.dashboard-content{
+    display:flex;
+    padding: auto;
+    overflow-y: auto;
+}
+
+.dashboard-stats{
+    display: flex;
+    gap:1rem;
+    margin: auto;
+
+}
+
+.dashboard-activity{
+    margin-top: 2rem;
+}

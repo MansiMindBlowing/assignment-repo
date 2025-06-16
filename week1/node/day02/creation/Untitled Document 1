@@ -1,0 +1,16 @@
+http request response lifcycle
+
+
+The HTTP (HyperText Transfer Protocol) request-response cycle is the communication process between a client (like a browser) and a server (like your Node.js app).
+
+It works like this:
+
+Client sends an HTTP request
+
+Server receives and processes the request
+
+Server sends back an HTTP response
+
+Client receives and renders (or uses) the response
+
+

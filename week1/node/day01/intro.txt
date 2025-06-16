@@ -1,1 +1,5 @@
-node js is open source language
+
+
+Setting up Node.js was pretty simple. I downloaded it from the official site, and after installing, I ran node -v to check if everything was set up right — and it was. Then I opened the Node.js REPL by just typing node in the terminal. It felt kind of like using the browser console, but with access to backend stuff.
+I tried out some basic JavaScript — doing math, working with strings, and creating objects — and it all behaved as expected. What caught my attention was the ability to use built-in modules like process and os. That’s something you don’t get in the browser. I was able to check system info and see how Node lets you interact directly with the machine, which was pretty cool.
+One thing I noticed right away was that there’s no window or document object like in the browser. That made it clear that Node is built for different kinds of tasks — more server-side and system-level stuff. Overall, it was an easy setup and a good first experience. It made me curious to learn more about what Node.js can do beyond just running JavaScript.

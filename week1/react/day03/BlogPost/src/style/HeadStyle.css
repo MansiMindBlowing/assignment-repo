@@ -1,0 +1,12 @@
+.head{
+    background-color:lightblue;
+    padding: 25px;
+    /* display: flex; */
+    text-align: center;
+
+}
+.title{
+    /* display: flex; */
+    text-align: center;
+    
+}
