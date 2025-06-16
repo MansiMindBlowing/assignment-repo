@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <div>
-            <h2 style={{position:"fixed", bottom:0, left:0, textAlign:"center", width:"100%", border:"2px solid black"}}>Footer</h2>
+            <h2 style={{border:"2px solid green", padding:"20px", backgroundColor:"lavender", position:"fixed", bottom:0, width:"100%"}}>Footer</h2>
         </div>
     )
 }

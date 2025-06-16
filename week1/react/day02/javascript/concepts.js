@@ -88,7 +88,7 @@ console.log(user.name);
 // };
 
 // replaceUser(user);
-// console.log(user.name);  // 😮 Still "Original Name"
+// console.log(user.name);  //  Still "Original Name"
 
 function functin(arr){
     arr = [0,0,0];
@@ -226,26 +226,32 @@ doubleAsync(5)
 
 //   user managmnt system--------------
 
-let users = []; // In-memory "database"
+let users = []; 
 
 // Add a single user using spread
 function addUser({ name, age }) {
   users = [...users, { name, age }];
 }
 
+function getUsers() {
+  return new Promise((resolve) => {
+    
+    setTimeout(() => {
+      resolve(users);
+    }, 100); 
+  });
+}
 
-
-// Remove a user by name
 function removeUser(name) {
   users = users.filter(user => user.name !== name);
 }
 
-// Add multiple users using rest operator
+
 function addMultipleUsers(...newUsers) {
   users = [...users, ...newUsers];
 }
 
-// App logic using Promises and then()
+
 addUser({ name: "mansi", age: 25 });
 
 
@@ -265,7 +271,7 @@ getUsers().then((userList1) => {
     );
 
     getUsers().then((userList3) => {
-      console.log("✅ After adding multiple users:", userList3);
+      console.log("After adding multiple users:", userList3);
     });
   });
 });
